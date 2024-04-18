@@ -1,0 +1,41 @@
+.container {
+    position: relative;
+    height: 300px; /* Example height for the container */
+    text-align: center; /* Aligns the link horizontally to the center */
+  }
+*{
+    background-color: #121212;
+    font-family: monospace;
+    font-size: 45px;
+}
+  .top-center {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+  }
+  span {
+    background: linear-gradient(to right, rgb(49, 105, 105), rgb(148, 238, 238));
+    -webkit-background-clip: text;
+
+    color: transparent;
+    font-weight: bold;
+  }
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+  td{
+    color: floralwhite;
+  }
